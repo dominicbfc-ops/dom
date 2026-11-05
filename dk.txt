@@ -1,0 +1,10 @@
+from bordes import black_and_white
+
+
+def board():
+    print("Starting Chess vs Bot. Choose your board style in the browser.")
+    black_and_white.launch_server(theme='classic')
+
+
+if __name__ == "__main__":
+    board()
